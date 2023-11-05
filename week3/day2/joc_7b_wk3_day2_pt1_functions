@@ -1,0 +1,17 @@
+#Joy of Coding 7 Basics Week 3 Day 2 Pt1
+# by Anthony Rodriguez
+
+
+def header(phrase, surround):
+    print(surround * (len(phrase) + 4))
+    print(surround, phrase, surround)
+    print(surround * (len(phrase) + 4))
+
+def main():
+    header("Hello, World!", "*")
+    header("Python Rocks", "!")
+    header("Coders 4 EVER", "+")
+    header("We Are the Knights of Nee!!", "~")
+
+
+main()
